@@ -12,8 +12,8 @@ try:
 except ImportError:
     import unittest
 
-NUMBER_1 = 3.0
-NUMBER_2 = 2.0
+NUMBER_1 = 5.0
+NUMBER_2 = 3.0
 FAILURE = 'incorrect value'
 
 
@@ -27,27 +27,27 @@ class CalculatorTest(unittest.TestCase):
 
     def test_add(self):
         value = self.calc.add(NUMBER_1, NUMBER_2)
-        self.assertEqual(value, 5.0, FAILURE)
+        self.assertEqual(value, 8.0, FAILURE)
         self.assertEqual(value, self.calc.last_answer, FAILURE)
 
     def test_subtract(self):
         value = self.calc.subtract(NUMBER_1, NUMBER_2)
-        self.assertEqual(value, 1.0, FAILURE)
+        self.assertEqual(value, 2.0, FAILURE)
         self.assertEqual(value, self.calc.last_answer, FAILURE)
 
     def test_subtract_negative(self):
         value = self.calc.subtract(NUMBER_2, NUMBER_1)
-        self.assertEqual(value, -1.0, FAILURE)
+        self.assertEqual(value, -2.0, FAILURE)
         self.assertEqual(value, self.calc.last_answer, FAILURE)
 
     def test_multiply(self):
         value = self.calc.multiply(NUMBER_1, NUMBER_2)
-        self.assertEqual(value, 6.0, FAILURE)
+        self.assertEqual(value, 15.0, FAILURE)
         self.assertEqual(value, self.calc.last_answer, FAILURE)
 
     def test_divide(self):
         value = self.calc.divide(NUMBER_1, NUMBER_2)
-        self.assertEqual(value, 1.5, FAILURE)
+        self.assertEqual(value, 1.6, FAILURE)
         self.assertEqual(value, self.calc.last_answer, FAILURE)
 
     def test_divide_by_zero(self):
