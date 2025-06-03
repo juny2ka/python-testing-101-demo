@@ -12,9 +12,9 @@ try:
 except ImportError:
     import unittest
 
-NUMBER_1 = 10.0
-NUMBER_2 = 2.0
-FAILURE = 'incorrect value'
+# NUMBER_1 = 20.0
+# NUMBER_2 = 2.0
+# FAILURE = 'incorrect value'
 
 
 class CalculatorTest(unittest.TestCase):
