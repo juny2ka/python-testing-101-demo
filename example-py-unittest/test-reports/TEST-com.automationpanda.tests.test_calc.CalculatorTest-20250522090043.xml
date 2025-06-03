@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.automationpanda.tests.test_calc.CalculatorTest-20250522090043" tests="13" file="com/automationpanda/tests/test_calc.py" time="0.002" timestamp="2025-05-22T09:00:43" failures="0" errors="0" skipped="0">
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_add" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="28"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_divide" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="48"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_divide_by_zero" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="53"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_last_answer_init" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="24"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_max_equal" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="66"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_max_greater" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="56"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_max_less" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="61"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_min_equal" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="81"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_min_greater" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="71"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_min_less" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="76"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_multiply" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="43"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_subtract" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="33"/>
+	<testcase classname="com.automationpanda.tests.test_calc.CalculatorTest" name="test_subtract_negative" time="0.000" timestamp="2025-05-22T09:00:43" file="com\automationpanda\tests\test_calc.py" line="38"/>
+</testsuite>
