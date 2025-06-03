@@ -2,15 +2,7 @@ import sys
 
 from com.automationpanda.example.calc import Calculator
 
-# Attempt to use back-ported unittest2 for Python 2.6 and earlier
-# However, it is strongly recommended to use Python 2.7 or 3.<latest>
-try:
-    if sys.version_info < (2, 7):
-        import unittest2
-    else:
-        raise ImportError()
-except ImportError:
-    import unittest
+
 
 # NUMBER_1 = 20.0
 # NUMBER_2 = 2.0
